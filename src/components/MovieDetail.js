@@ -6,7 +6,7 @@ export default function MovieDetail({ setMovieId, movieDetail }) {
   const { id } = useParams();
   useEffect(() => {
     setMovieId(id);
-  }, [id]);
+  }, [id, setMovieId]);
 
   return (
     <div className="movie-details">
