@@ -13,7 +13,7 @@ function App() {
   const [movieDetail, setMovieDetail] = useState([]);
   const [isLoading, setisLoading] = useState(false);
 
-  const API_URL = "http://www.omdbapi.com/";
+  const API_URL = "https://www.omdbapi.com/";
   // ? i = tt3896198 & apikey=26aa1c83"
 
   useEffect(() => {
