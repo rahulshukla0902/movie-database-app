@@ -1,0 +1,107 @@
+.home{
+    background-image: url(../assets/background.jpg);
+    background-position: absolute;
+}
+
+.navbar{
+    font-size: 20pt;
+    font-family:cursive;
+    font-weight:1000;
+    background-color: grey;
+    height: 10vh;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box; 
+    overflow: hidden;
+}
+
+.navbar-title{
+    padding: 20px;
+}
+
+.search-container{
+    margin-right: 50px;
+}
+
+.search-bar{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+.search-icon-button{
+    border: none;
+    background-color: grey;
+    font-size: 25px;
+}
+
+.search-icon{
+    cursor: pointer;
+}
+
+.empty-movie-list{
+    color: white;
+    font-size: 30pt;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 90vh;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.movie-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.movie-list-item{
+    margin: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 8px; 
+    padding: 20px; 
+    color: black;
+    box-shadow: 5px 5px 5px black; 
+    background-color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+
+.movie-list-item:hover{
+    transform: translateX(-10px) , translateY(-10px) scale(1.5);
+    box-shadow: 15px 15px 10px black;
+    background-color: black; 
+    color: white;
+    font-weight: bold;
+    border: 2px solid grey;
+    z-index: 1;
+}
+
+.movie-list-item:active{
+    transform: scale(0.9);
+}
+
+.movie-list-item-icon{
+    border-radius: 5px;
+}
+
+.link-reset {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from parent element */
+}
+
+.link-reset:hover,
+.link-reset:visited,
+.link-reset:active {
+    text-decoration: none; /* Ensure no underline on hover or active states */
+    color: inherit; /* Maintain the same color as the parent element */
+}

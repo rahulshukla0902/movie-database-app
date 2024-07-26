@@ -1,0 +1,33 @@
+.movie-details{
+    color:antiquewhite;
+    margin: 0%;
+    background-color:darkslategrey;
+    overflow:hidden;
+}
+
+/* Styling for the back button */
+.back-button {
+    margin: 10px;
+    background-color:bisque; 
+    color: black; 
+    border: none; 
+    border-radius: 4px; 
+    padding: 10px 20px; 
+    font-size: 10pt; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    display: flex;
+    align-items: center; 
+}
+
+.back-button:hover {
+    background-color: grey; /* Darker button color on hover */
+}
+
+.back-button:focus {
+    outline: none;
+}
+
+.back-button:active {
+    transform: scale(0.9); 
+}
